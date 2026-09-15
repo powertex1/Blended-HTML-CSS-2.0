@@ -1,0 +1,93 @@
+.catalog-section {
+  margin-bottom: 150px;
+}
+
+.catalog-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+
+  width: 713px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.catalog-list {
+  display: flex;
+  gap: 25px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.catalog-card {
+  background-color: #fbfbfb;
+  width: calc((100%- 2 * 25px) / 3);
+  border-radius: 24px;
+  padding: 16px;
+}
+.catalog-card > img {
+  border-radius: 24px;
+  margin-bottom: 32px;
+}
+.catalog-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.catalog-card-list {
+}
+.catalog-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+.catalog-card-type {
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #989899;
+}
+
+.catalog-card-item {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-card-label {
+  text-transform: uppercase;
+  color: #989899;
+}
+
+.catalog-btn {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: transparent;
+
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  width: 179px;
+  text-wrap: nowrap;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}
